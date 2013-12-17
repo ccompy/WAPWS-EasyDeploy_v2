@@ -49,7 +49,7 @@ Using WAP Web Sites
 1. This install does not supply it's own DNS.  In order to use the system it needs to be properly configured with DNS per the guidance here: http://technet.microsoft.com/en-us/library/dn469319.aspx#BKMK_DNS
 2. If performing a quick demo and configuring DNS is too much overhead then the you can create entries in the windows\system32\etc\hosts file to add the ftp and publish entries as well as the entries for each website being created.
 
-Trouble Shooting
+Troubleshooting
 ----------------
 1. DeployWAP failed on creating or modifying VM 
    * Cause: most likely DeployWAP can't access the HyperV WMI interface
