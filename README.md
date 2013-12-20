@@ -39,7 +39,7 @@ The <Prefix> is
 	* PT	Portal
 	* W	Shared Worker
 2. VHD's will be created under the HyperV's "Virtual Hard Disk" path, which can be changed through HyperV management UI
-3. Inside each VM, user "antaresadmin" with password "Wap2013!" will be created and assigned to "Administrators" group. 
+3. Inside each VM, user "websiteadmin" with password "Wap2013!" will be created and assigned to "Administrators" group. 
 4. Both Sql and MySql will be installed on the database server. The admin user for Sql server is "sa" with password "Wap2013!". The admin user for MySql server is "root" with password "Wap2013!"
 5. The management end point is on the management server, port 443 with basic authentication. The user is "cloudadmin" with password "Wap2013!"
 6. A plan "WAP Default Plan" will be created after successful deployment and promotion code is "Wap2013!"
@@ -60,7 +60,7 @@ Troubleshooting
 3. Host machine lost network connectivity during deployment
   * Cause: DeployWAP is creating a new virtual network and disrupted the connectivity
   * Solution: Wait till connectivity restored. To prevent it from happening, make sure there is virtual network named "WAP Network" or there is an existing external virtual network
-4. No user "antaresadmin" in the VM
+4. No user "websiteadmin" in the VM
   * Cause: initial setup script was not properly executed during first boot, and this is because the base vhd is not properly syspreped 
   * Solution: Get the official VHDor do nothing after "sysprep.exe"
 5. Machine names not resolved , as a result, Infinite waiting for controller and other waiting
