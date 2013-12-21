@@ -7,7 +7,7 @@ The purpose of the tool is to setup a WAP Web Sites environment on a single Hype
 	
 Prerequisite
 ------------
-1. Host machine requirement, 8960MB memory required, 40GB hard disk needed, supported OS's are:  2008 Server, Windows 8 and Windows 2012 Server
+1. Host machine requirement, 8960MB memory required, 40GB hard disk needed, supported OS's are:  Windows Server 2008 R2, Windows 8, Windows Server 2012 and Windows Server 2012 R2
 2. Internet access is needed for all VM's. The network adapter in every VM will connect to
 	* An existing virtual network named as "WAP Network"
 	* If not there, the first available external virtual network
