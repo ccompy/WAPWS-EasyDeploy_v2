@@ -41,7 +41,7 @@ The <Prefix> is
 	* PT	Portal
 	* W	Shared Worker
 2. VHD's will be created under the HyperV's "Virtual Hard Disk" path, which can be changed through HyperV management UI
-3. Inside each VM, user "websiteadmin" with password "Wap2013!" will be created and assigned to "Administrators" group. 
+3. Inside each VM, user "websitesadmin" with password "Wap2013!" will be created and assigned to "Administrators" group. 
 4. Both Sql and MySql will be installed on the database server. The admin user for Sql server is "sa" with password "Wap2013!". The admin user for MySql server is "root" with password "Wap2013!"
 5. The management end point is on the management server, port 443 with basic authentication. The user is "cloudadmin" with password "Wap2013!"
 6. A plan "WAP Default Plan" will be created after successful deployment and promotion code is "Wap2013!"
