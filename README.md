@@ -26,7 +26,7 @@ Command Line Options
 3. [Optional] -VMSuffix
 	Default to host machine name, which will be appended at the end of VM name and corresponding machine name
 
-*Command Line Example:*  DeployWAP.exe -BaseVHD WinServerImage.vhd -SiteDomain wapdemo.com -VMSuffix mydemo.com
+*Command Line Example:*  DeployWAP.exe -BaseVHD WinServerImage.vhd -SiteDomain wapdemo.com -VMSuffix mydemo
 		
 Process Details
 ---------------
