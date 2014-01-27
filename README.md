@@ -49,7 +49,21 @@ The <Prefix> is
 Using WAP Web Sites
 -------------------
 1. This install does not supply it's own DNS.  In order to use the system it needs to be properly configured with DNS per the guidance here: http://technet.microsoft.com/en-us/library/dn469319.aspx#BKMK_DNS
-2. If performing a quick demo and configuring DNS is too much overhead then the you can create entries in the windows\system32\etc\hosts file to add the ftp and publish entries as well as the entries for each website being created.
+If performing a quick demo and configuring DNS is too much overhead then the you can create entries in the windows\system32\etc\hosts file to add the ftp and publish entries as well as the entries for each website being created.
+If using the hosts file, the entries you need to add are:
+<ipaddress> publish.<sitedomain>
+<ipaddress> ftp.<sitedomain>
+<ipaddress> <sitename>.<sitedomain>
+<ipaddress> <sitename>.scm.<sitedomain>
+*example:*
+       10.121.136.207   publish.wapwsdemo.com
+       10.121.136.207   ftp.wapwsdemo.com
+       10.121.136.222	mydemo.wapwsdemo.com
+       10.121.136.222   mydemo.scm.wapwsdemo.com
+As you add new sites you would need to add new sitename based entries of course.
+2. The tenant portal is at https://pt-<VMsuffix>:30081 *example:* https://pt-mydemo:30081
+3. The admin portal is at https://pt-<VMsuffix>:30091  *example:* https://pt-mydemo:30091
+4. You can start using the system immediately as a tenant and create an account.  Then add a subscription to your account.  When doing so use the subscription code "Wap2013!"  If using the hosts file for DNS create the entries and save them before creating the web site.  
 
 Troubleshooting
 ----------------
