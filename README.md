@@ -51,10 +51,10 @@ Using WAP Web Sites
 1. This install does not supply it's own DNS.  In order to use the system it needs to be properly configured with DNS per the guidance here: http://technet.microsoft.com/en-us/library/dn469319.aspx#BKMK_DNS
 If performing a quick demo and configuring DNS is too much overhead then the you can create entries in the windows\system32\etc\hosts file to add the ftp and publish entries as well as the entries for each website being created.
 If using the hosts file, the entries you need to add are:
-'*ipaddress*' publish.'*sitedomain*'  
-'*ipaddress*' ftp.'*sitedomain*'  
-'*ipaddress*' '*sitename*'.'*sitedomain'*  
-'*ipaddress*' '*sitename*'.scm.'*sitedomain'*  
+'*publisher ipaddress*' publish.'*sitedomain*'  
+'*publisher ipaddress*' ftp.'*sitedomain*'  
+'*front end ipaddress*' '*sitename*'.'*sitedomain'*  
+'*front end ipaddress*' '*sitename*'.scm.'*sitedomain'*  
 **example:**  
        10.121.136.207   publish.wapwsdemo.com  
        10.121.136.207   ftp.wapwsdemo.com  
