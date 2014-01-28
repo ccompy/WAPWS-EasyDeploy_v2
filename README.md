@@ -40,7 +40,7 @@ The <Prefix> is
 	* PB	Publisher
 	* PT	Portal
 	* W	Shared Worker
-2. VHD's will be created under the HyperV's "Virtual Hard Disk" path, which can be changed through HyperV management UI
+2. VHD's will be created under the HyperV's "Virtual Hard Disk" path, which can be changed through HyperV management UI.  The default is C:\Users\Public\Documents\Hyper-V\Virtual hard disks.  If you run the tool multiple times and remove the VM's you may still need to clean up the left over vhd's and this is where they are.   
 3. Inside each VM, user "websitesadmin" with password "Wap2013!" will be created and assigned to "Administrators" group. 
 4. Both Sql and MySql will be installed on the database server. The admin user for Sql server is "sa" with password "Wap2013!". The admin user for MySql server is "root" with password "Wap2013!"
 5. The management end point is on the management server, port 443 with basic authentication. The user is "cloudadmin" with password "Wap2013!"
